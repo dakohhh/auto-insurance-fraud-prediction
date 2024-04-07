@@ -107,6 +107,8 @@ def policy_state_to_value(choice: Any):
     return choices[choice]
 
 
+st.set_page_config(page_title="Insurance claim Fraud Detection")
+
 st.title("Insurance Fraud Detection")
 
 
